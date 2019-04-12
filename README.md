@@ -20,7 +20,7 @@ The database was created to satisfy the following constraints/relationships:
 - For every sale, an agent receives a commission based on how much the sale was. There are 5 commission brackets.
 
 With data normalization in mind, the following tables and relationships were created:
-- `Agent` and `Office`tables have a many-to-many relationship using an association table
+- `Agent` and `Office` tables have a many-to-many relationship using an association table
 - `Agent` and `House` has a one-to-many relationship using a FK in `House`
 - `Sale` and `House` has a one-to-one relationship using a FK in `Sale`
 - `Agent` and `Sale` has a one-to-many relationship using a FK in `Sale`
