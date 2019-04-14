@@ -4,7 +4,14 @@ A database set-up written in SQLAlchemy for a mock real-estate company.
 
 ## General Instructions:
 
-From the command line, navigate to the directory containing the `.py` files and run these lines:
+Clone the repo, cd to repo:
+```
+$ cd folder/to/clone/into
+$ git clone https://github.com/hu-ng/real-estate-db.git
+$ cd real-estate-db
+```
+
+From the command line and in `real-estate-db`, run these lines:
 ```cmd
 $ python -m pip install -r requirements.txt   # install the required dependencies
 $ python create.py  # create model classes
